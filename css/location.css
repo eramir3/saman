@@ -1,0 +1,14 @@
+main .inner {
+    padding-bottom: 0;
+}
+
+.location__image-container img {
+    width: 40rem
+}
+
+@media(max-width: 736px) {
+    
+    .location__image-container img {
+        width: 20rem
+    }
+}

@@ -1,0 +1,36 @@
+main .inner {
+    padding-left: 3rem;
+    padding-right: 3rem;
+}
+
+video {
+    width: 95%;
+}
+
+.gallery {
+    display: flex;
+    justify-content: space-around;
+}
+
+.gallery__image-container {
+    border-radius: 5px;
+}
+
+.gallery__image-container img {
+    width: 25rem;
+    border-radius: 25px;
+}
+
+@media(max-width: 736px) {
+    
+    .gallery {
+        flex-flow: wrap;
+        margin: 0;
+    }
+    
+    .gallery__image-container img {
+        width: 22rem;
+        border-radius: 25px;
+        
+    }
+}
